@@ -3,6 +3,7 @@ library(tidytext)
 library(stringi)
 library(stringr)
 library(tm)
+library(stylo)
 
 #Loading corpus data cleaned by cleanInput function
 bigram <- readRDS("all_bigram.rds")
